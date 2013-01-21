@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Save Image to:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f2f2f2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="sdcard/"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f2f2f2" />
+
+            <EditText
+                android:id="@+id/saveTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pictures/GLORIA" >
+            </EditText>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/doNotAsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dont ask again"
+            android:textColor="#f2f2f2" />
+    </LinearLayout>
+
+</ScrollView>
